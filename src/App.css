@@ -1,7 +1,45 @@
 .App {
   text-align: center;
 }
+.App h1{
+  background-color: bisque;  
+  padding: 15px;
+  color: blue;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  height: 50px;
+  margin-top: 0px;
+}
+.navbar li{
+  list-style: none;
+}
+.navbar li a{
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+}
 
+.navbar li a:hover{  
+  color: white;
+  background-color: brown;
+  transition: all 0.5s ease-out;
+}
+.navbar li a:active{  
+  color: white;
+  background-color: red;
+ 
+}
+.active{  
+  color: white!important;
+  background-color: red;
+ 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
